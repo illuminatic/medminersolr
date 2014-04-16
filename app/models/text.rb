@@ -6,7 +6,11 @@ class Text  < ActiveRecord::Base
 
   searchable do
    
-    text :content
+    text :content 
+    text :page  do 
+          page.page_title
+    end
+   
   end
 
 end
