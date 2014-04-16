@@ -12,7 +12,9 @@
 development:
   adapter: mysql2
 
+
   database: mwiki
+
 
   username: root
   password:
